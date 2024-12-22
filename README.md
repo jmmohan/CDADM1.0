@@ -34,13 +34,62 @@ Adversarial attacks exploit vulnerabilities in machine learning models by pertur
 
 ---
 
+## **Requirements**
+Refer requirements.txt file for the project, listing all the dependencies needed for the Python scripts in the GitHub structure
+
+```plaintext
+# General Dependencies
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# PyTorch for deep learning models
+torch==2.0.1
+torchvision==0.15.2
+
+# Transformers for BERT-based models
+transformers==4.30.2
+
+# ART (Adversarial Robustness Toolbox) for adversarial sample generation
+adversarial-robustness-toolbox==1.13.0
+
+# Utilities
+matplotlib==3.7.2
+seaborn==0.12.2
+pickle-mixin==1.0.2
+```
+
+### Explanation of Packages
+1. **`numpy` and `pandas`**:
+   - For numerical computations and tabular data manipulation.
+2. **`scikit-learn`**:
+   - For tabular data modeling (e.g., `RandomForestClassifier`) and preprocessing (e.g., PCA).
+3. **`torch` and `torchvision`**:
+   - For building and using deep learning models like ResNet and custom domain encoders.
+4. **`transformers`**:
+   - To load pre-trained BERT models for text classification.
+5. **`adversarial-robustness-toolbox`**:
+   - For generating adversarial samples using methods like FGSM.
+6. **`matplotlib` and `seaborn`**:
+   - For visualization of metrics and evaluation results.
+7. **`pickle-mixin`**:
+   - To load and save models/datasets efficiently.
+
+### Commands to Install
+To install all dependencies at once, use the following command in your project directory:
+
+```bash
+pip install -r requirements.txt
+```
+
+
 ## **Installation**
 To set up the repository locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/cdadm.git
-   cd cdadm
+   git clone https://github.com/jmmohan/CDADM1.0
+   cd cdadm1.0
 
 
 ## **Usage**
