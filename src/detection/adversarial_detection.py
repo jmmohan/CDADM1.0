@@ -5,6 +5,7 @@ def detect_adversarial(input_data, model, threshold=1.0):
     """
     Detect adversarial samples by analyzing gradient norms.
     
+    
     Args:
         input_data (np.ndarray): Input samples.
         model (object): Trained ML model.

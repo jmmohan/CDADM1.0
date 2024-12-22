@@ -5,6 +5,7 @@ def compute_gradient_norms(input_data, model):
     """
     Compute gradient norms for adversarial detection.
     
+    
     Args:
         input_data (np.ndarray): Input samples.
         model (object): Trained ML model.
