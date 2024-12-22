@@ -1,6 +1,7 @@
 # Cross-Domain Adaptive Defense Mechanism (CDADM)
 
 This repository contains the implementation of the Cross-Domain Adaptive Defense Mechanism (CDADM) for detecting and mitigating adversarial attacks across multiple domains, including Computer Vision, Natural Language Processing (NLP), and Cybersecurity.
+The Cross-Domain Adaptive Defense Mechanism (CDADM) is a framework designed to enhance the robustness of machine learning models against adversarial attacks across different domains. The mechanism adapts to various data types (e.g., images, text, or network traffic) while offering real-time defenses against adversarial perturbations. The system integrates multiple techniques, including Adaptive Defense Layers (ADL), Universal Perturbation Detection (UPD), and Cross-Modal Feature Mapping (CMFM), to protect models from attacks across diverse domains.
 
 ---
 
