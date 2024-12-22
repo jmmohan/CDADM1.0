@@ -1,0 +1,21 @@
+# General Dependencies
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# PyTorch for deep learning models
+torch==2.0.1
+torchvision==0.15.2
+
+# Transformers for BERT-based models
+transformers==4.30.2
+
+# ART (Adversarial Robustness Toolbox) for adversarial sample generation
+adversarial-robustness-toolbox==1.13.0
+
+
+# Utilities
+matplotlib==3.7.2
+seaborn==0.12.2
+pickle-mixin==1.0.2
+
