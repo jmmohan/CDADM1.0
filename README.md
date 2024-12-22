@@ -102,7 +102,7 @@ print(results)
 | False Positive Rate (FPR)| 15%         | 8%           |
 | Runtime Overhead (sec)  | 0.05         | 0.12         |
 
-Interpreation : 
+## **Interpreation : **
 **Accuracy:**
 On clean datasets, CDADM maintains high accuracy across domains.
 On adversarial datasets, CDADM significantly outperforms the baseline by 25%.
