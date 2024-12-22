@@ -102,7 +102,7 @@ print(results)
 | False Positive Rate (FPR)| 15%         | 8%           |
 | Runtime Overhead (sec)  | 0.05         | 0.12         |
 
-## **Interpreation : **
+## **Interpretation : **
 **Accuracy:**
 On clean datasets, CDADM maintains high accuracy across domains.
 On adversarial datasets, CDADM significantly outperforms the baseline by 25%.
@@ -115,7 +115,8 @@ The FPR of CDADM is lower, ensuring fewer false alarms.
 While CDADM introduces a slight increase in computational cost (from 0.05s to 0.12s per sample), the improved robustness justifies the trade-off.
 Cross-Domain Performance:
 
-CDADM demonstrates excellent generalization across diverse data modalities (image, text, tabular), unlike the baseline, which struggles with unseen domains.
+**CDADM demonstrates excellent generalization across diverse data modalities (image, text, tabular), unlike the baseline, which struggles with unseen domains.**
+
 ---
 
 ## **Contributing**
