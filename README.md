@@ -89,7 +89,7 @@ print(results)
 ## **Datasets**
 - **Computer Vision**: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 - **NLP**: [IMDb Sentiment Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
-- **Cybersecurity**: Synthetic tabular data for intrusion detection.
+- **Cybersecurity**: Synthetic tabular data for intrusion detection. Use the SyntheticData_Generator.py to generate tabular data for testing.  Find the sample data in Src/Data folder.  
 
 ---
 
